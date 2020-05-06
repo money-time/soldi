@@ -3,10 +3,20 @@
 <head>
 	<title>Hashtag generator</title>
 	<script type="text/javascript" src='gen.js'></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165675651-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-165675651-1');
+</script>
+
 </head>
 <body>
 	<br><br>
-	<input type="button" value='Get New Hashtags' name="" id='btn' onclick='document.getElementById("result").value=getRandomHashtags()'>
+	<input type="button" value='Get New Hashtags' name="" id='btn' onclick='document.getElementById("result").value=getRandomForMirror()'>
 	<br>
 	<div>
 		<p>📧Tag someone or comment😸</p>
